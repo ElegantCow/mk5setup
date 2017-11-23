@@ -31,7 +31,7 @@ def format_print(stdout, command, station, exp):
 def ssh_connect(station, commands, exp):
 	hostname = "mk5"+station
 	print "Conectiong to "+hostname
-	password = "LunchB0x"
+	password = ""
 	#password = getpass.getpass("Please enter the password for oper@mk5"+station+". '\n'")
 	username = "oper"
 	port = 22
